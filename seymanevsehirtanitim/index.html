@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevşehir - Peri Bacalarının Şehri</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- HEADER VE NAVIGASYON -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html"><strong>NEVŞEHİR</strong></a></h1>
+                <p class="tagline">Peri Bacalarının Şehri</p>
+            </div>
+            
+            <nav class="nav">
+                <ul>
+                    <li><a href="#anasayfa" class="active">Ana Sayfa</a></li>
+                    <li class="dropdown">
+                        <a href="#hakkinda">Hakkında ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#tarihce">Tarihçe</a></li>
+                            <li><a href="#cografya">Coğrafya</a></li>
+                            <li><a href="#kultur">Kültür</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#gezilecek">Gezilecek Yerler</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section id="anasayfa" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Nevşehir'i Keşfedin</h2>
+                <p>Kapadokya'nın kalbinde, tarih ve doğanın buluştuğu eşsiz şehir</p>
+                <a href="#gezilecek" class="btn">Keşfe Başla</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HAKKINDA BÖLÜMÜ -->
+    <section id="hakkinda" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nevşehir Hakkında</h2>
+                <p>Türkiye'nin en özel turizm merkezlerinden biri</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <article>
+                        <h3 id="tarihce">Tarihçe</h3>
+                        <p>
+                            Nevşehir ve Kapadokya bölgesi, Hititlerden başlayarak Roma, Bizans, Selçuklu ve Osmanlı medeniyetlerine ev sahipliği yapmıştır. Özellikle Hristiyanlığın ilk dönemlerinde önemli bir sığınak ve yayılma merkezi olmuştur.
+                        </p>
+                        
+                        <h3 id="cografya" style="margin-top: 20px;">Coğrafya</h3>
+                        <p>
+                            Erciyes, Hasandağı ve Güllüdağ'ın püskürttüğü lav ve küllerin oluşturduğu yumuşak tabakaların, milyonlarca yıl boyunca yağmur ve rüzgar tarafından aşındırılmasıyla bugünkü eşsiz coğrafi yapı ortaya çıkmıştır.
+                        </p>
+                        
+                        <h3 id="kultur" style="margin-top: 20px;">Kültür</h3>
+                        <p>
+                            Bölge, çömlekçilik, halıcılık ve şarapçılık gibi geleneksel el sanatlarıyla zengindir. Ayrıca yöresel mutfağı, testi kebabı ve düğün çorbası gibi lezzetleriyle tanınır.
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="about-image">
+                    <img src="assets/peribacalari.jpeg" alt="Peri Bacaları">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GEZİLECEK YERLER -->
+    <section id="gezilecek" class="places">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gezilecek Yerler</h2>
+                <p>Nevşehir'in mutlaka görülmesi gereken yerleri</p>
+            </div>
+            
+            <div class="places-grid">
+                <div class="place-card">
+                    <div class="place-image">
+                        <img src="assets/goreme.jpeg" alt="Göreme Açık Hava Müzesi">
+                    </div>
+                    <div class="place-info">
+                        <h3>Göreme Açık Hava Müzesi</h3>
+                        <p>Kaya oyma kiliseler ve fresklerle bezeli tarihi alan</p>
+                        <a href="#goreme-detay" class="btn-small">Detaylar</a>
+                    </div>
+                </div>
+                
+                <div class="place-card">
+                    <div class="place-image">
+                        <img src="assets/derinkuyu.jpeg" alt="Derinkuyu Yeraltı Şehri">
+                    </div>
+                    <div class="place-info">
+                        <h3>Derinkuyu Yeraltı Şehri</h3>
+                        <p>8 katlı yeraltı şehri, tarihe ışık tutan önemli miras</p>
+                        <a href="#derinkuyu-detay" class="btn-small">Detaylar</a>
+                    </div>
+                </div>
+                
+                <div class="place-card">
+                    <div class="place-image">
+                        <img src="assets/avanos.jpeg" alt="Avanos Çömlekçilik">
+                    </div>
+                    <div class="place-info">
+                        <h3>Avanos</h3>
+                        <p>Kızılırmak kenarında çömlekçilik geleneğinin merkezi</p>
+                        <a href="#avanos-detay" class="btn-small">Detaylar</a>
+                    </div>
+                </div>
+                
+                <div class="place-card">
+                    <div class="place-image">
+                        <img src="assets/uchisar.jpeg" alt="Uçhisar Kalesi">
+                    </div>
+                    <div class="place-info">
+                        <h3>Uçhisar Kalesi</h3>
+                        <p>Kapadokya'nın en yüksek noktası, panoramik manzara</p>
+                        <a href="#uchisar-detay" class="btn-small">Detaylar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İSTATİSTİKLER -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>5.467 km²</h3>
+                    <p>Yüzölçümü</p>
+                </div>
+                <div class="stat-item">
+                    <h3>310.000+</h3>
+                    <p>Nüfus</p>
+                </div>
+                <div class="stat-item">
+                    <h3>1.224 m</h3>
+                    <p>Rakım</p>
+                </div>
+                <div class="stat-item">
+                    <h3>UNESCO</h3>
+                    <p>Dünya Mirası</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERİ -->
+    <section id="galeri" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeri</h2>
+                <p>Nevşehir'den kareler</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/balon.jpg" alt="Sıcak Hava Balonları">
+                    <div class="gallery-overlay">
+                        <p>Balon Turları</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/kapadokya.jpeg" alt="Kapadokya Manzarası">
+                    <div class="gallery-overlay">
+                        <p>Eşsiz Manzara</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/testikebabi.jpeg" alt="Testi Kebabı">
+                    <div class="gallery-overlay">
+                        <p>Yöresel Lezzetler</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/kilisefresk.jpeg" alt="Tarihi Freskler">
+                    <div class="gallery-overlay">
+                        <p>Tarihi Freskler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABLO BÖLÜMÜ -->
+    <section class="table-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nevşehir Bilgileri</h2>
+                <p>Şehrimiz hakkında temel bilgiler</p>
+            </div>
+            
+            <table>
+                <caption>Nevşehir İstatistikleri</caption>
+                    <tr>
+                        <th>Özellik</th>
+                        <th>Değer</th>
+                        <th>Açıklama</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Yüzölçümü</strong></td>
+                        <td>5.467 km²</td>
+                        <td>Türkiye'nin 54. büyük ili</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nüfus</strong></td>
+                        <td>310.000</td>
+                        <td>2023 verilerine göre</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rakım</strong></td>
+                        <td>1.224 m</td>
+                        <td>Deniz seviyesinden yüksekliği</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Plaka Kodu</strong></td>
+                        <td>50</td>
+                        <td>Trafik plaka kodu</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Telefon Kodu</strong></td>
+                        <td>384</td>
+                        <td>Alan kodu</td>
+                    </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section id="iletisim" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>İletişim</h2>
+                <p>Bize ulaşın</p>
+            </div>
+            
+            <div class="contact-content">
+                <aside class="contact-info">
+                    <h3>Nevşehir Valiliği</h3>
+                    <p><strong>Adres:</strong> İnönü Mahallesi, Zafer Meydanı No:1, Nevşehir</p>
+                    <p><strong>Telefon:</strong> 0384 213 10 01</p>
+                    <p><strong>E-posta:</strong> bilgi@nevsehir.gov.tr</p>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/seym.cakr02" class="social-link" title="Instagram" target="_blank">Site Sahibinin Instagramı</a>
+                    </div>
+                </aside>
+                
+                <div class="contact-form">
+                    <form>
+                        <p>İletişim formu şu an bakım aşamasındadır. Lütfen yukarıdaki bilgilerden bize ulaşınız.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>NEVŞEHİR</h3>
+                    <p>Peri Bacalarının Şehri</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#hakkinda">Hakkında</a></li>
+                        <li><a href="#gezilecek">Gezilecek Yerler</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>İletişim</h4>
+                    <p>İnönü Mahallesi, Zafer Meydanı No:1</p>
+                    <p>Nevşehir / TÜRKİYE</p>
+                    <p>Tel: 0384 213 10 01</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nevşehir Tanıtım Sitesi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALS (DETAY PENCERELERİ) -->
+    <div id="goreme-detay" class="modal">
+        <div class="modal-content">
+            <a href="#gezilecek" class="modal-close">&times;</a>
+            <div class="modal-body">
+                <img src="assets/goreme.jpg" alt="Göreme" class="modal-img">
+                <div class="modal-text">
+                    <h3>Göreme Açık Hava Müzesi</h3>
+                    <p>Göreme Açık Hava Müzesi, M.S. 4. yüzyıldan 13. yüzyıla kadar yoğun bir manastır hayatına ev sahipliği yapmıştır. Kaya blokların içine oyulmuş kiliseler, şapeller, yemekhaneler ve oturma mekanları bulunmaktadır.</p>
+                    <p>Elmalı Kilise, Yılanlı Kilise, Karanlık Kilise gibi önemli yapılar buradadır. UNESCO Dünya Mirası Listesi'nde yer alan bu alan, Kapadokya'nın en çok ziyaret edilen noktasıdır. Fresklerdeki sanatsal detaylar, dönemin Hristiyanlık anlayışını ve sanatını günümüze taşımaktadır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="derinkuyu-detay" class="modal">
+        <div class="modal-content">
+            <a href="#gezilecek" class="modal-close">&times;</a>
+            <div class="modal-body">
+                <img src="assets/derinkuyu.jpg" alt="Derinkuyu" class="modal-img">
+                <div class="modal-text">
+                    <h3>Derinkuyu Yeraltı Şehri</h3>
+                    <p>Derinkuyu Yeraltı Şehri, Kapadokya bölgesindeki 36 yeraltı şehrinin en büyüğüdür. 1963 yılında tesadüfen bulunan şehir, 1967 yılında turizme açılmıştır. Yaklaşık 85 metre derinliğe inen bu yapı, mühendislik harikasıdır.</p>
+                    <p>8 katlı olan bu şehirde, misyonerler okulu, günah çıkarma yeri, vaftiz havuzu ve ilgi çekici bir kuyu bulunmaktadır. Yaklaşık 20.000 kişinin yaşayabileceği bir kapasiteye sahiptir. Havalandırma bacaları sayesinde en alt katta bile nefes almak mümkündür.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="avanos-detay" class="modal">
+        <div class="modal-content">
+            <a href="#gezilecek" class="modal-close">&times;</a>
+            <div class="modal-body">
+                <img src="assets/avanos.jpg" alt="Avanos" class="modal-img">
+                <div class="modal-text">
+                    <h3>Avanos ve Çömlekçilik</h3>
+                    <p>Avanos, antik dönemdeki adıyla Venessa, Kızılırmak nehrinin iki yakasına kurulmuştur. Bölgedeki tüflü kızıl toprağın seramik sanatına dönüştüğü merkezdir. Hititlerden beri süregelen çömlekçilik geleneği, babadan oğula geçerek günümüze kadar ulaşmıştır.</p>
+                    <p>Ziyaretçiler burada çömlek atölyelerini gezebilir ve kendi çömleklerini yapmayı deneyimleyebilirler. Ayrıca asma köprüsü ve nehir kenarındaki yürüyüş yolları ile huzurlu bir atmosfere sahiptir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="uchisar-detay" class="modal">
+        <div class="modal-content">
+            <a href="#gezilecek" class="modal-close">&times;</a>
+            <div class="modal-body">
+                <img src="assets/uchisar.jpg" alt="Uçhisar" class="modal-img">
+                <div class="modal-text">
+                    <h3>Uçhisar Kalesi</h3>
+                    <p>Uçhisar Kalesi, Kapadokya'nın zirvesidir. Bölgenin en büyük ve en güzel peri bacası olarak kabul edilir. Kalenin zirvesinden Güvercinlik Vadisi, Avanos, Ortahisar Kalesi ve Göreme Milli Parkı panoramik olarak izlenebilir.</p>
+                    <p>Gün batımının en güzel izlendiği noktalardan biridir. İçerisinde çok sayıda oda, mahzen ve sığınak bulunmaktadır. Tarih boyunca savunma amaçlı kullanılan kale, bölgenin en stratejik noktalarından biri olmuştur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
